@@ -13,13 +13,15 @@ export default function Calculator() {
       </View>
       <View style={globalStyles.row}>
         <CalculatorBotton 
-          onPress={()=>{console.log('1')}} 
+          onPress={()=>{}} 
           color={Colors.lightGray} 
           blackText 
           label='AC'></CalculatorBotton>
-        <CalculatorBotton onPress={()=>{console.log('1')}} color={Colors.lightGray} blackText label='+/-'></CalculatorBotton>
-        <CalculatorBotton onPress={()=>{console.log('1')}} color={Colors.lightGray} blackText label='%'></CalculatorBotton>
-        <CalculatorBotton onPress={()=>{console.log('1')}} blackText color={Colors.orange} label='/'></CalculatorBotton>
+        <CalculatorBotton onPress={()=>{}} color={Colors.lightGray} blackText label='+/-'></CalculatorBotton>
+        <CalculatorBotton onPress={()=>{}} color={Colors.lightGray} blackText label='%'></CalculatorBotton>
+        <CalculatorBotton onPress={()=>{
+
+        }} blackText color={Colors.orange} label='/'></CalculatorBotton>
       </View>
       <View style={globalStyles.row}>
         <CalculatorBotton onPress={()=>{console.log('1')}} label='7'></CalculatorBotton>
@@ -40,8 +42,7 @@ export default function Calculator() {
         <CalculatorBotton onPress={()=>{console.log('1')}} color={Colors.orange} label='-'></CalculatorBotton>
       </View>
       <View style={globalStyles.row}>
-        <CalculatorBotton onPress={()=>{console.log('1')}} label='?'></CalculatorBotton>
-        <CalculatorBotton onPress={()=>{console.log('1')}} label='0'></CalculatorBotton>
+        <CalculatorBotton onPress={()=>{console.log('1')}} doubleSize label='0'></CalculatorBotton>
         <CalculatorBotton onPress={()=>{console.log('1')}} label='.'></CalculatorBotton>
         <CalculatorBotton onPress={()=>{console.log('1')}} color={Colors.orange} label='='></CalculatorBotton>
       </View>

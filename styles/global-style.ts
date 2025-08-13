@@ -33,8 +33,8 @@ export const globalStyles= StyleSheet.create({
         borderRadius:40,
         paddingTop:15,
         margin:5,
-        width:75,
-        height:75,
+        width:80,
+        height:80,
         alignItems: 'center',
         backgroundColor: Colors.darkGray
     },
