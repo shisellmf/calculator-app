@@ -23,6 +23,7 @@ const CalculatorBotton = ({label,color=Colors.darkGray,
         width: doubleSize? 170:80
     })}
     onPress={()=>{
+       onPress();
        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Soft)
     }}
     >
